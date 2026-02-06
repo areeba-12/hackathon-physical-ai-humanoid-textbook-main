@@ -7,14 +7,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://physicalhumanoidaitextbook.vercel.app',
+  url: 'https://hackathon-physical-ai-humanoid-text-six-pied.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'subhankaladi', // Usually your GitHub org/user name.
+  organizationName: 'syeda-areeb', // Usually your GitHub org/user name.
   projectName: 'physical-ai-humanoid-robotics-textbook', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
@@ -72,7 +72,7 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/subhankaladi',
+            href: 'https://github.com/areeba-12',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,15 +109,15 @@ const config = {
             items: [
               {
                 label: 'Instagram',
-                href: 'https://instagram.com/subhan_kaladi',
+                href: '#',
               },
               {
                 label: 'LinkenIN',
-                href: 'https://www.linkedin.com/in/subhankaladi/',
+                href: 'https://www.linkedin.com/in/syeda-areeba-bb52202ba/',
               },
               {
                 label: '(X)Twitter',
-                href: 'https://x.com/subhankaladi15',
+                href: '#',
               },
             ],
           },
@@ -126,12 +126,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/subhankaladi',
+                href: 'https://github.com/areeba-12',
               },
             ],
           },
         ],
-        copyright: `Copyright � ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook, Built with ❤️ by Subhan Kaladi.`,
+        copyright: `Copyright � ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook`,
       },
       prism: {
         theme: prismThemes.github,
