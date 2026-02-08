@@ -26,7 +26,7 @@ class DocusaurusEmbeddingPipeline:
         self.cohere_client = cohere.Client(api_key=os.getenv("COHERE_API_KEY"))
 
         # Initialize Qdrant client
-        qdrant_url = os.getenv("QDRANT_URL", "https://e5a23b7f-fae6-4fc3-a806-d274200b0882.us-east4-0.gcp.cloud.qdrant.io")
+        qdrant_url = os.getenv("QDRANT_URL", "https://67dde1bb-1809-449b-861f-3c6b7d3f34dd.europe-west3-0.gcp.cloud.qdrant.io")
         qdrant_api_key = os.getenv("QDRANT_API_KEY")
 
         if qdrant_api_key:
