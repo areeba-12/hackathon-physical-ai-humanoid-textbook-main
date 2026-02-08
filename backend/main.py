@@ -26,7 +26,7 @@ class DocusaurusEmbeddingPipeline:
         self.cohere_client = cohere.Client(api_key=os.getenv("COHERE_API_KEY"))
 
         # Initialize Qdrant client
-        qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
+        qdrant_url = os.getenv("QDRANT_URL", "https://e5a23b7f-fae6-4fc3-a806-d274200b0882.us-east4-0.gcp.cloud.qdrant.io")
         qdrant_api_key = os.getenv("QDRANT_API_KEY")
 
         if qdrant_api_key:
@@ -35,7 +35,7 @@ class DocusaurusEmbeddingPipeline:
             self.qdrant_client = QdrantClient(url=qdrant_url)
 
         # Target URL for the Docusaurus site
-        self.target_url = "https://hackathon-physical-ai-humanoid-text-sigma.vercel.app/"
+        self.target_url = "https://hackathon-physical-ai-humanoid-text-seven.vercel.app/"
 
     def get_all_urls(self, base_url: str) -> List[str]:
         """
